@@ -1,0 +1,96 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  padding: 24px;
+  min-width: 100%;
+}
+h4 {
+  text-align: center;
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 12px;
+}
+.form-data {
+  height: 36px;
+  padding: 0px 12px;
+  display: flex;
+  width: 54%;
+  font-size: medium;
+  justify-content: space-between;
+}
+form {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+input {
+  padding: 3px;
+  height: 100%;
+  width: 80%;
+}
+textarea {
+  height: 150px;
+  width: 80%;
+}
+.btn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: green;
+  padding: 12px 18px;
+  border-radius: 9px;
+}
+
+#gender,
+#qualification {
+  width: 22%;
+}
+.g-wrapper,
+.g-wrapper label {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#male,
+#female,
+.checkbox {
+  padding: 0px;
+  height: 12px;
+  align-self: end;
+}
+
+#address {
+  height: 150px;
+}
+#specialization {
+  height: 100px;
+  width: 30%;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+
+  align-content: flex-end;
+}
+.wrapper .s-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.s-name {
+  width: 100%;
+}
