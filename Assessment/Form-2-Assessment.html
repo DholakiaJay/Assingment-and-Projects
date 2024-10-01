@@ -12,9 +12,15 @@
     <link rel="stylesheet" href="/Assessment/style/form.css" />
   </head>
   <body>
+    <!-- Title -->
     <h4>Student Registration Form</h4>
+
+    <!-- FormContainer -->
     <div class="container">
+
+      <!-- Form -->
       <form>
+        <!-- Name -->
         <div class="form-data">
           <span class="title">First Name : </span>
           <input
@@ -25,26 +31,31 @@
             required
           />
         </div>
+
+        <!-- Surname -->
         <div class="form-data">
           <span class="title">Last Name : </span>
           <input type="text" placeholder="Enter Your Last Name" required />
         </div>
 
+        <!-- Email -->
         <div class="form-data">
           <span class="title">Email : </span>
           <input type="email" placeholder="Enter Your Email" required />
         </div>
 
+        <!-- Mobile -->
         <div class="form-data">
           <span class="title">Mobile : </span>
           <input
-            type="number"
+            type="tel"
             placeholder="only 10 digits are allowed"
-            maxlength ="10"
+            maxlength="10"
             required
           />
         </div>
 
+        <!-- Gender -->
         <div class="form-data" id="gender">
           <span class="title">Gender : </span>
           <div class="g-wrapper">
@@ -55,28 +66,37 @@
           </div>
         </div>
 
+        <!-- DOB -->
         <div class="form-data">
           <span class="title">Date OF Birth : </span>
           <input type="date" required />
         </div>
 
+        <!-- Address -->
         <div class="form-data" id="address">
           <span class="title">Address : </span>
           <textarea> </textarea>
         </div>
+
+        <!-- City -->
         <div class="form-data">
           <span class="title">City : </span>
           <input type="text" name="city" required />
         </div>
+
+        <!-- PinCode -->
         <div class="form-data">
           <span class="title">Area PIN : </span>
           <input type="number" name="are-pin" required />
         </div>
+
+        <!-- State -->
         <div class="form-data">
           <span class="title">State : </span>
           <input type="text" name="state" required />
         </div>
 
+        <!-- Qualification -->
         <div class="form-data" id="qualification">
           <span class="title">Qualification : </span>
           <select>
@@ -90,6 +110,7 @@
           </select>
         </div>
 
+        <!-- Specialization -->
         <div class="form-data" id="specialization">
           <span class="title">Specialization</span>
           <div class="wrapper">
@@ -117,10 +138,13 @@
             >
           </div>
         </div>
+        <!-- Password -->
         <div class="form-data">
           <span class="title">Password : </span>
           <input type="password" required />
         </div>
+
+        <!-- Register -->
         <button type="submit" class="btn">Register</button>
       </form>
     </div>

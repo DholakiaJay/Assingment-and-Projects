@@ -32,9 +32,14 @@
     </style>
   </head>
   <body>
+    <!-- Title -->
     <h1>Student Registration Form</h1>
+
+    <!-- Form -Container -->
     <div class="stu-form">
+      <!-- Form -->
       <form>
+        <!-- Name -->
         <label for="f-name"> First Name : </label>
         <input
           type="text"
@@ -43,6 +48,7 @@
           required
         />
 
+        <!-- Surname -->
         <label for="l-name"> Last Name :</label>
         <input
           type="text"
@@ -51,6 +57,7 @@
           required
         />
 
+        <!-- Email -->
         <label for="email"> Email : </label>
         <input
           type="email"
@@ -59,15 +66,17 @@
           required
         />
 
+        <!-- Mobile -->
         <label for="phone"> Mobile : </label>
         <input
-          type="number"
+          type="tel"
           placeholder="Enter Your Number"
           name="phone"
-          max="10"
+          maxlength="10"
           required
         />
 
+        <!-- Gender -->
         <label
           >Gender :
           <br />
@@ -76,19 +85,28 @@
           <label for="female">Female</label>
           <input type="radio" name="gender" id="female" />
         </label>
+
+        <!-- DOB -->
         <label for="date">Date Of Birth :</label>
         <input type="date" name="date" />
+
+        <!-- Address -->
         <label for="address"> Address : </label>
         <textarea name="address"> </textarea>
+
+        <!-- City -->
         <label for="city">City :</label>
         <input type="text" name="city" required />
 
+        <!-- PinCode -->
         <label for="area-pin">Area-PIN:</label>
         <input type="number" name="area-pin" required />
 
+        <!-- State -->
         <label for="state">State :</label>
         <input type="text" name="state" required />
 
+        <!-- Qualification -->
         <label for="qualification">Qualification :</label>
         <select>
           <option value="">Select Qualification</option>
@@ -100,6 +118,7 @@
           <option value="Other">Other</option>
         </select>
 
+        <!-- Specialization -->
         <label
           >Specialization :
           <br />
@@ -120,9 +139,11 @@
           >
         </label>
 
+        <!-- Password -->
         <label for="password">Password : </label>
         <input type="password" name="password" required />
 
+        <!-- Register Button -->
         <button type="submit">Register</button>
       </form>
     </div>
